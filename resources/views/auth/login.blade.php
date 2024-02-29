@@ -73,6 +73,9 @@
 @endsection --}}
 @extends('layouts.admin')
 
+@section('title')
+    <title>Login</title>
+@endsection
 @section('login-box')
     <div class="login-box">
         <div class="login-logo">
